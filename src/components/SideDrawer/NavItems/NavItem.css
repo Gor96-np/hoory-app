@@ -1,0 +1,20 @@
+.NavItem {
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.NavItem a {
+    padding: 4px;
+    color: turquoise;
+}
+.NavItem a:hover {
+    color: white;
+    text-decoration: none;
+}
+.NavItem a:active,
+.NavItem a.active {
+    color: yellow;
+    text-decoration: none;
+}

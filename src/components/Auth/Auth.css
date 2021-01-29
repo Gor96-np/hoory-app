@@ -1,0 +1,208 @@
+.Cont {
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    height: 63%;
+    top: 70%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    padding: 7px;
+    align-items: center;
+    border-radius: 0.3rem;
+    box-shadow: 1em;
+
+}
+.Cont input {
+    box-shadow: 1px 1px 6px 4px rgba(0,0,0,0.21);
+}
+.Cont input {
+    margin-top:12px;
+    border-radius: 1.2rem;
+}
+.Google {
+    width: 60%;
+    /* box-shadow: 1px 1px 6px 7px rgba(0,0,0,0.21); */
+    margin-bottom: 10px;
+}
+.firstname {
+    display: block;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.firstname:focus {
+    outline: none;
+    background-color: #ccc;
+}
+.InvalidSignedUp {
+    border: 1px solid red;
+
+}
+/* .firstFocus {
+    border: 1px solid red;
+} */
+.firstFocus:focus {
+    background-color: #ccc;
+}
+.lastname {
+    display: block;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.lastname:focus {
+    outline: none;
+    background-color: #ccc;
+}
+.lastFocus {
+    border:1px solid red;
+
+}
+.lastFocus:focus {
+    background-color: #ccc;
+}
+
+.email {
+    display: block;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.email:focus {
+    outline: none;
+    background-color: #ccc;
+}
+.emailFocus {
+    border:1px solid red;
+}
+.emailFocus:focus {
+    background-color: #ccc;
+}
+.password {
+    display: block;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.password:focus {
+    outline: none;
+    background-color: #ccc;
+}
+.passwordFocus {
+    border:1px solid red;
+
+}
+.emailFocus:focus {
+    background-color: #ccc;
+}
+.Button {
+    position: static;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 1.5em;
+    color: white;
+    width: 180px;
+    height: 50px;
+}
+
+.Button:disabled {
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+}
+.hr:after {
+    background: #fff;
+    font-size: 16px;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+@media(max-width:1050px){
+    .Cont {
+        width: 34%;
+        margin-left: 4%;
+
+    }
+    
+}
+@media(max-width:870px){
+    .Cont {
+        width: 36%;
+        left: 66%;
+
+    } 
+}
+@media(max-width:760px){
+    .Cont {
+        width: 40%;
+        left: 73%;
+
+    } 
+}
+
+@media(max-width:562px) {
+    .Cont {
+        position: absolute;
+        width: 63%;
+        height: 63%;
+        top: 60%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+        padding: 7px;
+        align-items: center;
+        border-radius: 0.3rem;
+        box-shadow: 1.ch;
+    }
+ 
+    .Google {
+        width: 80%;
+        /* box-shadow: 1px 1px 6px 7px rgba(0,0,0,0.21); */
+        margin-bottom: 10px;
+    }
+ 
+    .Button {
+        position: static;
+        margin-top: 30px;
+        padding: 5px;
+        background-color: green;
+        border: 2px solid white;
+        border-radius: 1.5em;
+        color: white;
+        width: 180px;
+        height: 50px;
+    }
+    
+    .Button:disabled {
+          border: 1px solid #999999;
+          background-color: #cccccc;
+          color: #666666;
+    }
+    .hr:after {
+        background: #fff;
+        font-size: 16px;
+        content: 'or';
+        padding: 0 4px;
+        position: relative;
+        top: -13px;
+    }
+}

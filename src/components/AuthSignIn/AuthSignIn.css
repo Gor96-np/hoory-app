@@ -1,0 +1,106 @@
+.AuthSign {
+    position: absolute;
+    left: 42%;
+    top: 28%;
+    max-width: 685px;
+    
+    /* min-width: 300px; */
+    
+}
+.AuthSign input {
+    box-shadow: 1px 1px 6px 4px rgba(0,0,0,0.21);
+}
+
+.AuthSign h1 {
+    display: inline;
+    font-weight: bold;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.AuthSign h3 {
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:70px;
+    
+}
+/* .ImgContainer {
+    margin-top: 50px;
+} */
+/* .Hoory {
+    display: block;
+    margin-bottom: 200px;
+} */
+
+.ImgContainer img {
+    margin-top: -40px;
+    margin-right:10px;
+}
+.ImgContainer h1 {
+    margin-top: -40px;
+    margin-right:10px;
+}
+
+.SignUpInput {
+    display: block;
+    width: 70%;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 15em;
+
+}
+.SignUpInput:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.SignUpInput:focus {
+    background-color: #ccc;
+}
+.InvalidSignUp {
+    border: 1px solid red;
+}
+.SignInButton {
+    position: static;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 1.5em;
+    color: white;
+    width: 180px;
+    height: 50px;
+}
+
+.SignInButton:disabled {
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+}
+
+.Img {
+    width: 80%;
+}
+
+@media(max-width:962px) {
+    .AuthSign {
+        left: 53%;        
+    }
+}
+
+@media(max-width:562px) {
+    .AuthSign {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%,-50%);
+        
+    }
+}
+
+

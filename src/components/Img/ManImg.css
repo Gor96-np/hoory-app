@@ -1,0 +1,24 @@
+.Man img     {
+    display:inline-block;
+    width: 83px;
+    height: 83px;
+    border-radius: 1.9rem;
+    padding:5px;
+    background-color: #fff;
+    margin-right: 5px;
+}
+.Green {
+    border:3px solid rgb(180, 236, 81)
+}
+.Orange {
+    border:3px solid orange
+}
+.Pink {
+    border:3px solid rgb(255,20,147)
+}
+.Red {
+    border:3px solid rgb(245, 81, 95)
+}
+.Blue {
+    border:3px solid blue
+}

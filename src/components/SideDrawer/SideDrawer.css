@@ -1,0 +1,95 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    min-width: 230px;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    z-index: 200;
+    box-sizing: border-box;
+    background: linear-gradient(13.08deg, #600BFB 0%, #6B54FB 100%);
+    margin: auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+    transition: transform 0.4s ease-out;
+}
+
+.SideDrawer img {
+    position: relative;
+    margin-top: -18px;
+}
+
+.Name {
+    display: inline;
+    border: 1px solid #00C67B;
+    background-color: #00C67B;
+}
+
+
+.Logout {
+        height: 50px;
+        width: 80%;
+        display: flex;
+        margin-left: 20px;
+        margin-top:400px ;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255,255,255,0.15);
+        cursor: pointer;
+        border-radius: 16px;
+        color: #ffffff;
+}
+.SideColors {
+    position: absolute;
+    top:59px;
+    width: 40px;
+    height: 150px;
+    padding: 15px 12px;
+
+}
+.SideColors span {
+    margin-top:38px
+}
+.sideRoundTop {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.sideRoundMiddle {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.sideRoundBottom {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.sideRoundLastBottom {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.Success {
+    background-color: turquoise;
+}
+.Open {
+ transform: translateX(0);
+}
+
+@media(max-width:562px){
+    .Close {
+        transform: translateX(-100%);
+       }
+}
+

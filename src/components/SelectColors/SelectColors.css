@@ -1,0 +1,294 @@
+
+.SelectCol div {
+    display: inline-block;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+.blue {
+    width: 70px;
+    height: 70px;
+    border:2px solid white;
+    background: linear-gradient(13.08deg, #600BFB 0%, #6B54FB 100%);
+    border-radius: 2.2rem;
+}
+
+
+.green {
+    width: 70px;
+    height: 70px;
+    border:2px solid white;
+    border-radius: 2.2rem;
+    background-color: green;
+    
+
+}
+
+
+.orange {
+    width: 70px;
+    height: 70px;
+    border:2px solid white;
+    background-color: orange;
+    border-radius: 2.2rem;
+    
+    
+}
+.pink {
+    width: 70px;
+    height: 70px;
+    border:2px solid white;
+    background-color: rgb(255,20,147);
+    border-radius: 2.2rem;
+}
+.red {
+    width: 70px;
+    height: 70px;
+    border:2px solid white;
+    background-color: red;
+    border-radius: 2.2rem;
+}
+
+.Def {
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 50%;
+    padding: 3px;
+}
+.Green {
+    width: 85px;
+    height: 85px;
+    border: 4px solid rgb(180, 236, 81);
+    border-radius: 50%;
+    padding: 3px;
+}
+.Orange {
+    width: 85px;
+    height: 85px;
+    border: 4px solid rgb(250, 217, 97);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.Pink {
+    width: 85px;
+    height: 85px;
+    border: 4px solid rgb(255,20,147);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.Red {
+    width: 85px;
+    height: 85px;
+    border: 4px solid red;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.Blue {
+    width: 85px;
+    height: 85px;
+    border: 4px solid rgb(96, 11, 251);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+@media(max-width:890px) {
+    .SelectCol div {
+   display: inline-block;
+   cursor: pointer;
+
+}
+.blue {
+   width:65px;
+   height: 65px;
+   border:2px solid white;
+   background: linear-gradient(13.08deg, #600BFB 0%, #6B54FB 100%);
+   border-radius: 2.2rem;
+}
+
+
+.green {
+   width: 65px;
+   height: 65px;
+   border:2px solid white;
+   border-radius: 2.2rem;
+   background-color: green;
+   
+
+}
+
+
+.orange {
+   width: 65px;
+   height: 65px;
+   border:2px solid white;
+   background-color: orange;
+   border-radius: 2.2rem;
+   
+   
+}
+.pink {
+   width: 65px;
+   height: 65px;
+   border:2px solid white;
+   background-color: rgb(255,20,147);
+   border-radius: 2.2rem;
+}
+.red {
+   width: 65px;
+   height: 65px;
+   border:2px solid white;
+   background-color: red;
+   border-radius: 2.2rem;
+}
+
+.Def {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   padding: 1px;
+   
+}
+.Green {
+   width: 78px;
+   height: 78px;
+   border: 4px solid rgb(180, 236, 81);
+   border-radius: 50%;
+   padding: 2px;
+}
+.Orange {
+   width: 78px;
+   height: 78px;
+   border: 4px solid rgb(250, 217, 97);
+   border-radius: 50%;
+   padding: 2px;
+}
+
+.Pink {
+   width: 78px;
+   height: 78px;
+   border: 4px solid rgb(255,20,147);
+   border-radius: 50%;
+   padding: 2px;
+}
+
+.Red {
+   width: 78px;
+   height: 78px;
+   border: 4px solid red;
+   border-radius: 50%;
+   padding: 2px;
+}
+
+.Blue {
+   width: 78px;
+   height: 78px;
+   border: 4px solid rgb(96, 11, 251);
+   border-radius: 50%;
+   padding: 2px;
+}
+
+
+}
+ @media(max-width:562px) {
+         .SelectCol div {
+        display: inline-block;
+        cursor: pointer;
+
+    }
+    .blue {
+        width: 52px;
+        height: 52px;
+        border:2px solid white;
+        background: linear-gradient(13.08deg, #600BFB 0%, #6B54FB 100%);
+        border-radius: 2.2rem;
+    }
+    
+    
+    .green {
+        width: 52px;
+        height: 52px;
+        border:2px solid white;
+        border-radius: 2.2rem;
+        background-color: green;
+        
+    
+    }
+    
+    
+    .orange {
+        width: 52px;
+        height: 52px;
+        border:2px solid white;
+        background-color: orange;
+        border-radius: 2.2rem;
+        
+        
+    }
+    .pink {
+        width: 52px;
+        height: 52px;
+        border:2px solid white;
+        background-color: rgb(255,20,147);
+        border-radius: 2.2rem;
+    }
+    .red {
+        width: 52px;
+        height: 52px;
+        border:2px solid white;
+        background-color: red;
+        border-radius: 2.2rem;
+    }
+    
+    .Def {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 1px;
+        
+    }
+    .Green {
+        width: 63px;
+        height: 63px;
+        border: 4px solid rgb(180, 236, 81);
+        border-radius: 50%;
+        padding: 1px;
+    }
+    .Orange {
+        width: 63px;
+        height: 63px;
+        border: 4px solid rgb(250, 217, 97);
+        border-radius: 50%;
+        padding: 1px;
+    }
+    
+    .Pink {
+        width: 63px;
+        height: 63px;
+        border: 4px solid rgb(255,20,147);
+        border-radius: 50%;
+        padding: 1px;
+    }
+    
+    .Red {
+        width: 63px;
+        height: 63px;
+        border: 4px solid red;
+        border-radius: 50%;
+        padding: 1px;
+    }
+    
+    .Blue {
+        width: 63px;
+        height: 63px;
+        border: 4px solid rgb(96, 11, 251);
+        border-radius: 50%;
+        padding: 1px;
+    }
+    
+
+}
+
+ 

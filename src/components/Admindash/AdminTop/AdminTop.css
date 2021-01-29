@@ -1,0 +1,81 @@
+.AdminTop {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    color: black;
+    box-shadow: 10px, 20px, 30px solid black;
+    box-shadow: 1px 1px 6px 4px rgba(0,0,0,0.21);
+    background-color: white;
+    z-index: 1;
+}
+  .InvalidLogout {
+    background-color: red;
+  }
+.Name {
+  position: absolute;
+  left: 370px;
+  top: 20px;
+}
+.Email {
+    position: absolute;
+    left: 380px;
+    top: 50px;
+  }
+
+.ImgCont {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    width: 65px;
+    height: 65px;
+    margin-left: 270px;
+    border: 1ps solid black;
+    border-radius: 50%;
+    background-color: #6610f2
+}
+@media(min-width:562px) {
+  .AdminTop {
+   min-width: 790px;
+  }
+}
+@media(max-width:562px) {
+  .AdminTop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    color: black;
+    box-shadow: 10px, 20px, 30px solid black;
+    box-shadow: 1px 1px 6px 4px rgba(0,0,0,0.21);
+    background-color: white;
+    z-index: 1;
+
+
+}
+.AdminTop p {
+    display: inline;
+}
+
+  .InvalidLogout {
+    background-color: red;
+  }
+.Name {
+  position: absolute;
+  left: 62px;
+  top: 20px;
+  font-size: 20px;
+}
+.Email {
+    position: absolute;
+    left: 65px;
+    top: 47px;
+    font-size: 15px;
+
+  }
+
+.ImgCont {
+  display: none;
+}
+
+}

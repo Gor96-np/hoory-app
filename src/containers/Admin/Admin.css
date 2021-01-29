@@ -1,0 +1,37 @@
+.Edit {
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+   }
+.Delete {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+      }
+.Search{
+    position: relative;
+    margin-top: 200px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font:inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.8em;
+    }
+.Search:hover {
+    outline:none;
+  }
+  .Admin {
+    position: relative;
+    margin-top: 100px;
+
+  }
