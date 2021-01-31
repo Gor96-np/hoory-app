@@ -41,14 +41,14 @@ passwordChangedHandler = (event) => {
   const signInData = (
       <Wrapper>
           {redirect}
-         <AuthSignin onSubmit={this.signInSubmitHandler}
+        <AuthSignin onSubmit={this.signInSubmitHandler}
                      emailChanged={this.emailChangedHandler}
-                     passwordChanged={this.passwordChangedHandler}
-                     emailValue={this.state.email}
-                     passwordValue={this.state.password}
-                     Invalid={this.props.message}
-                     errroMessage={this.props.message}
-                     loading={this.props.loading}
+                      passwordChanged={this.passwordChangedHandler}
+                       emailValue={this.state.email}
+                        passwordValue={this.state.password}
+                         Invalid={this.props.message}
+                          errroMessage={this.props.message}
+                           loading={this.props.loading}
                      />
       </Wrapper>
          

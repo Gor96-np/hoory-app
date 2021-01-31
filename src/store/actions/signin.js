@@ -30,7 +30,7 @@ export const signIn = (mail,userPassword) => {
          email:mail,
          password:userPassword
      };
-    axios.post('https://hoory-mern-app.web.app/user/signin',signInData)
+    axios.post('/user/signin',signInData)
     .then(response => {
     if(response.data.success){
       dispatch(signInSuccess(response.data.token,response.data.userData))
