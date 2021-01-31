@@ -23,7 +23,7 @@ export const getStoreToken = () => {
     if(obj && obj.token) {
         const  { token } = obj;
         dispatch(getTokenSuccess(token))
-        axios.post('/verify?token='+token)
+        axios.post('https://hoory.herokuapp.com/verify?token='+token)
         .then(response => console.log(response.data))
         .catch(err => console.log(err))
     }
@@ -61,7 +61,7 @@ export const signUpUser = (firstname,lastname,email,password) => {
             email:email,
             password:password
            }
-    axios.post('/user/signup',signUpData)
+    axios.post('https://hoory.herokuapp.com/user/signup',signUpData)
     .then(response => {
      if(response.data.success) {
  localStorage.setItem('Signup__Success',response.data.loclUserData)
