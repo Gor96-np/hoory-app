@@ -30,7 +30,7 @@ export const signIn = (mail,userPassword) => {
          email:mail,
          password:userPassword
      };
-    axios.post('https://hoory-mern.herokuapp.com/user/signin',signInData)
+    axios.post('https://hoory.herokuapp.com/user/signin',signInData)
     .then(response => {
     if(response.data.success){
       dispatch(signInSuccess(response.data.token,response.data.userData))

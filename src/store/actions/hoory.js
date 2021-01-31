@@ -30,7 +30,7 @@ export const submitHooryItems = (gender,color,name,localUserId) => {
             hooryname:name,
             userId:localUserId,
         }
-     axios.post('https://hoory-mern.herokuapp.com/data/add',hooryItems)
+     axios.post('https://hoory.herokuapp.com/data/add',hooryItems)
      .then(response => {
          dispatch(addItemsSuccess());
      })    
@@ -66,7 +66,7 @@ export const getDataFail = (error) => {
 export const getData = (id) => {
       return dispatch => {
           dispatch(getDataStart());
-          axios.get('https://hoory-mern.herokuapp.com/data/' )
+          axios.get('https://hoory.herokuapp.com/data/' )
           .then(response => {
                 dispatch(getDataSuccessHoory(response.data,id));
           })
@@ -86,7 +86,7 @@ export const filterHoory = (id) => {
 
 export const deleteData = (id) => {
     return dispatch => {
-        axios.delete('https://hoory-mern.herokuapp.com/data/' + id)
+        axios.delete('https://hoory.herokuapp.com/data/' + id)
             .then(res => {
                   dispatch(filterHoory(id))
             }).catch(err => {
@@ -107,7 +107,7 @@ export const updatedHooryName = (persName,id,updName) => {
 export const updateName = (id,name,itemName) => {
     return dispatch => {
         const updatedName = {hooryname:name}
-        axios.post('https://hoory-mern.herokuapp.com/data/update/' + id,updatedName)
+        axios.post('https://hoory.herokuapp.com/data/update/' + id,updatedName)
         .then(response => {
             dispatch(updatedHooryName(name,id,itemName))
             console.log(response.data)
