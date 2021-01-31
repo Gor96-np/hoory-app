@@ -10,7 +10,7 @@ export const getDataSuccess = (id) => {
 
 export const getUserNames = (id) => {
     return dispatch => {
-        axios.get('https://hoory.herokuapp.com/user/' + id)
+        axios.get('https://hoory-mern.herokuapp.com/user/' + id)
         .then(response => {
             const data = [];
             data.push({...response.data})
